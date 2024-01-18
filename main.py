@@ -1,7 +1,7 @@
 import secrets
 import string
 chars = [string.punctuation, string.ascii_uppercase, string.ascii_lowercase, string.digits] # Different characters that can be used
-config = [int(input('Would you like special characters? (1/0)\n')), int(input('Would you like capital letters? (1/0)\n')), int(input('Would you like lowercase letters? (1/0)\n')), int(input('Would you like numbers? (1/0)\n')), int(input('What length would you like your password(s) to be?\n')), int(input('How may passwords would you like to generate?\n'))]
+config = [int(input('Would you like to allow special characters? (1/0)\n')), int(input('Would you like to allow capital letters? (1/0)\n')), int(input('Would you like to allow lowercase letters? (1/0)\n')), int(input('Would you to allow like numbers? (1/0)\n')), int(input('What length would you like your password(s) to be?\n')), int(input('How may passwords would you like to generate?\n'))]
 chars = list(filter(lambda x: config[chars.index(x)], chars)) # Filters out options from the list that the user doesn't want.
 try:
     for i in range(config[5]):
