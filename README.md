@@ -1,5 +1,5 @@
 # passwordgen
-A super simple python password generator using the 'secrets' module
+A super simple password generator written in python using the 'secrets' module
 ## Features
 This password generator lets the user:
 - Choose the length of the password
