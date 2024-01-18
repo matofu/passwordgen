@@ -10,4 +10,4 @@ try:
             password += secrets.choice(secrets.choice(possible_chars))
         print(f'\n{password}')
 except:
-    print('\nSomething went wrong. You may want to choose different settings.')
+    print('Something went wrong. You may want to choose different settings.')
