@@ -1,2 +1,2 @@
 # passwordgen
-A simple python password generator.
+A super simple python password generator using the 'secrets' module
