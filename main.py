@@ -7,7 +7,7 @@ try:
     for i in range(int(config[5])):
         password = ''
         for i in range(int(config[4])):
-            password += secrets.choice(secrets.choice(chars))
+            password += secrets.choice(secrets.choice(possible_chars))
         print(f'\n{password}')
 except:
     print('Something went wrong. You may want to choose different settings.')
